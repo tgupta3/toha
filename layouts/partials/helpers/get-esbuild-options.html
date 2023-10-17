@@ -187,6 +187,6 @@ namespaced by their corresponding feature.
     "defines" $defines 
     "params" $params 
     "minify" true
-    "sourceMap" (cond hugo.IsProduction "inline" "inline")
+    "sourceMap" (cond hugo.IsProduction "" "")
     "inject" "scripts/process-shim.js"
 }}
